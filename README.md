@@ -1,14 +1,14 @@
-minimal-theme
-=============
+# minimal-theme
 
 A dark/light minimalistic theme for Emacs 24.
 
-## Screenshots ##
+![Screenshot](screenshot.jpg)
 
-### Light ###
+## Difference of this fork
 
-![Light theme](light.png)
+- Mode Line: Use dark mode line in dark theme. 
+- Org Mode: Same font size for all headers. And other minor tweaks.
 
-### Dark ###
+## License
 
-![Dark theme](dark.png)
+GPL v3

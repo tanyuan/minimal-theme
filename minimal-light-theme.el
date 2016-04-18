@@ -1,5 +1,7 @@
 ;;; minimal-light-theme.el --- A light/dark minimalistic Emacs 24 theme.
 
+;; modified by tanyuan, 2016
+
 ;; Copyright (C) 2014 Anler Hp
 
 ;; Author: Anler Hp <anler86 [at] gmail.com>
@@ -117,14 +119,14 @@
      `(hl-line-face ((,class (:background ,hl-face-background))))
 
      ;; org-mode
-     `(org-level-1 ((,class (:foreground ,foreground :height 1.6))))
-     `(org-level-2 ((,class (:foreground ,foreground :height 1.5))))
-     `(org-level-3 ((,class (:foreground ,foreground :height 1.4))))
-     `(org-level-4 ((,class (:foreground ,foreground :height 1.3))))
-     `(org-level-5 ((,class (:foreground ,foreground :height 1.2))))
-     `(org-level-6 ((,class (:foreground ,foreground :height 1.1))))
-     `(org-level-7 ((,class (:foreground ,foreground))))
-     `(org-level-8 ((,class (:foreground ,foreground))))
+     `(org-level-1 ((,class (:foreground ,foreground :weight bold))))
+     `(org-level-2 ((,class (:foreground ,foreground :weight bold))))
+     `(org-level-3 ((,class (:foreground ,foreground :weight bold))))
+     `(org-level-4 ((,class (:foreground ,foreground :weight bold))))
+     `(org-level-5 ((,class (:foreground ,foreground :weight bold))))
+     `(org-level-6 ((,class (:foreground ,foreground :weight bold))))
+     `(org-level-7 ((,class (:foreground ,foreground :weight bold))))
+     `(org-level-8 ((,class (:foreground ,foreground :weight bold))))
 
      ;; outline
      `(outline-1 ((,class (:inherit org-level-1))))
@@ -139,14 +141,15 @@
      `(org-document-title ((,class (:foreground ,foreground))))
 
      `(org-link ((,class (:background ,org-background :foreground ,foreground :underline t))))
-     `(org-tag ((,class (:background ,org-background :foreground ,foreground))))
+     `(org-tag ((,class (:background ,org-background :foreground ,comment))))
      `(org-warning ((,class (:background ,region :foreground ,foreground :weight bold))))
      `(org-todo ((,class (:background ,region :foreground ,foreground :weight bold))))
      `(org-done ((,class (:background ,region :foreground ,foreground :weight bold))))
 
+     `(org-hide ((,class (:background ,background :foreground ,background))))
      `(org-table ((,class (:background ,org-background))))
      `(org-code ((,class (:background ,org-background))))
-     `(org-date ((,class (:background ,org-background :underline t))))
+     `(org-date ((,class (:background ,org-background :foreground ,comment :underline t))))
      `(org-block ((,class (:background ,org-background))))
      `(org-block-background ((,class (:background ,org-background :foreground ,foreground))))
      `(org-block-begin-line
