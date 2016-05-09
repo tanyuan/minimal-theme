@@ -115,7 +115,7 @@
                                 ))))
 
       ;; hl-line-mode
-     `(hl-line ((,class (:background ,hl-background))))
+     `(hl-line ((,class (:background ,modeline-background))))
      `(hl-line-face ((,class (:background ,hl-face-background))))
 
      ;; org-mode
