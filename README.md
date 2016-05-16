@@ -2,7 +2,7 @@
 
 A dark/light minimalistic theme for Emacs 24.
 
-![Screenshot](screenshot.jpg)
+![Screenshot](screenshot.png)
 
 ## Difference of this fork
 
